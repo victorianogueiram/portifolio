@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PEP App · Vic Nogueira</title>
+  <meta name="description" content="Oncology doctors need patient records in emergencies, between appointments, away from the office. The web platform couldn&#x27;t do that: it was hard to use and">
+  <meta property="og:title" content="PEP App · Vic Nogueira">
+  <meta property="og:description" content="Oncology doctors need patient records in emergencies, between appointments, away from the office. The web platform couldn&#x27;t do that: it was hard to use and">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://www.victorianogueira.com/assets/img/pep-dashboard.webp">
+  <link rel="alternate" hreflang="en" href="https://www.victorianogueira.com/en/cases/pep-app">
+  <link rel="alternate" hreflang="pt-BR" href="https://www.victorianogueira.com/cases/app-pep">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="topbar"></div>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="/en">Vic Nogueira</a>
+      <nav class="nav" aria-label="Main">
+        <a href="/en#work">case studies</a>
+        <a href="/en/about">about</a>
+        <a href="/en/volunteering">volunteering</a>
+        <a href="#">resume</a>
+        <a href="https://www.linkedin.com/in/victorianogueira/" target="_blank" rel="noopener">linkedin</a>
+        <a class="lang-toggle" href="/cases/app-pep" hreflang="pt" lang="pt" aria-label="Mudar idioma para português"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.8 2.5 15.2 0 18M12 3c-2.5 2.8-2.5 15.2 0 18"/></svg><span class="on">EN</span><span class="off">/ PT</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <article>
+    <header class="case-hero">
+      <div class="container">
+        <p class="eyebrow">Oncologia D&#x27;Or / CWI Software | 2025/26</p>
+        <h1>From Web to Mobile: Modernizing Patient Records for Oncology Physicians</h1>
+        <p class="lead">Oncology doctors need patient records in emergencies, between appointments, away from the office. The web platform couldn&#x27;t do that: it was hard to use and didn&#x27;t work on a phone, so in critical moments doctors worked around it. I led the design of the PEP (Electronic Patient Record) mobile app from zero to launch.</p>
+      </div>
+    </header>
+    <section class="overview">
+      <div class="container">
+        <dl class="project-info"><div><dt>Company</dt><dd>Oncologia D&#x27;Or / CWI Software</dd></div><div><dt>My role</dt><dd>Sole Product Designer, end-to-end</dd></div><div><dt>Team</dt><dd>PO, Engineering, Medical staff</dd></div><div><dt>Platform</dt><dd>Mobile (iOS &amp; Android)</dd></div><div><dt>Tools</dt><dd>Figma, FigJam, Maze</dd></div></dl>
+        <figure class="figure"><img src="/assets/img/pep-dashboard.webp" alt="PEP app screens: home dashboard with the day&#x27;s appointments, agenda and patient record"></figure>
+      </div>
+    </section>
+    <div class="container story">
+        <section class="chapter"><h2>The problem</h2><div class="prose"><p>Oncology physicians manage complex, high-stakes patient cases that don&#x27;t stop when they leave the hospital. When an emergency arises outside the office, they need immediate access to patient history, treatment records, and clinical notes. The existing web platform was the only option, and it wasn&#x27;t built for speed, mobile use, or the cognitive load of a doctor making fast decisions under pressure.</p><p>The result: doctors were working around the system in critical moments, relying on memory or manual workarounds instead of having the right information at hand.</p></div></section>
+        <section class="chapter"><h2>My role &amp; constraints</h2><div class="two-col">
+          <div><h3>What I owned</h3><p>End-to-end design, from research and stakeholder workshops through interaction design, usability testing, beta process, and final handoff. I also built the complete style guide for the app from scratch: Oncologia D&#x27;Or had an existing brand identity, but no mobile design system, so I created one specifically for this product. I presented directly to directors throughout the process.</p></div>
+          <div><h3>Constraints</h3><p>The web platform already existed, which meant working within established data structures and clinical workflows while designing a completely new interaction model for mobile. The challenge was translating complex medical information into a fast, legible, thumb-friendly experience, without inventing new features.</p></div></div></section>
+        <section class="chapter"><h2>Discovery &amp; research</h2><div class="prose"><p>I spoke directly with oncology physicians to understand how they used, and worked around, the existing platform. The picture that emerged was consistent: the web experience was slow, cluttered, and completely unusable on a phone. In an emergency, that&#x27;s a clinical risk.</p><p>I also ran stakeholder workshops to align on scope and priorities before touching any interface decisions.</p></div><h3>Key findings</h3><div class="topics cols-3"><div class="topic"><span class="num">01</span><h4>Mobile access in emergencies</h4><p>The most critical unmet need.</p></div><div class="topic"><span class="num">02</span><h4>Too much information density</h4><p>Doctors needed a prioritized, scannable view for quick consultation.</p></div><div class="topic"><span class="num">03</span><h4>Low trust in the tool</h4><p>Doctors had learned not to rely on it when it mattered most.</p></div></div></section>
+        <div class="challenge"><p class="eyebrow">The design challenge</p><p>How might we give oncology physicians fast, reliable access to patient records on mobile, in the office, in emergencies, and everywhere in between?</p></div>
+        <section class="chapter"><h2>Key decisions</h2><div class="topics cols-2"><div class="topic"><span class="num">01</span><h3>Mobile-first, not mobile-adapted</h3><p>Rather than porting the web experience to a smaller screen, I redesigned the information hierarchy from scratch for mobile. What mattered most to a doctor in a fast consultation or emergency came first. Everything else was secondary.</p></div><div class="topic"><span class="num">02</span><h3>Clarity over completeness</h3><p>The web platform tried to show everything at once. The app prioritized the most critical clinical information upfront, with progressive disclosure for deeper records. Less cognitive load, faster decisions.</p></div><div class="topic"><span class="num">03</span><h3>Beta process for real-world validation</h3><p>Before full launch, I ran a beta with physicians, gathering structured feedback through Maze and direct observation. Several interaction patterns that worked in testing needed adjustment in actual clinical contexts.</p></div><div class="topic"><span class="num">04</span><h3>Co-designing with physicians from day one</h3><p>Doctors helped define the feature list from the first session, and that list became the MVP scope.</p></div></div></section>
+        <section class="chapter"><h2>The solution</h2><div class="prose"><p>A native iOS and Android app for the PEP (Electronic Patient Record). The first screen is a dashboard with the day’s appointments and the number of reported symptoms and deaths, so doctors see what needs attention before opening a single record.</p></div>
+          <figure class="figure"><img src="/assets/img/pep-records.webp" alt="PEP app screens: patient search, patient documents and treatment cycles" loading="lazy"></figure></section>
+        <section class="chapter"><h2>Results &amp; impact</h2><div class="metrics"><div class="metric"><span class="k">Mobile access</span><span class="v">Full</span><span class="n">iOS &amp; Android, from none before</span></div><div class="metric"><span class="k">Active users</span><span class="v">200 physicians</span><span class="n">12 days after launch</span></div><div class="metric"><span class="k">Beta group</span><span class="v">5 physicians</span><span class="n">continuous feedback loop pre-launch</span></div><div class="metric"><span class="k">Key feedback</span><span class="v">Usability</span><span class="n">plus clarity and functionality</span></div></div><div class="testimonials"><figure class="testimonial"><blockquote>Usability is wonderful! Very clean, easy to find everything I need.</blockquote><figcaption>Physician feedback</figcaption></figure><figure class="testimonial"><blockquote>The app turned out really well! Congrats!</blockquote><figcaption>Oncology physician</figcaption></figure></div></section>
+        <section class="chapter"><h2>Trade-offs: designing a lean MVP</h2><div class="prose"><p>The web platform had grown to include a wide range of features over time, not all of them essential, many of them rarely used. For the mobile app, I worked with physicians to define a much leaner MVP: a focused set of features covering the core of what doctors needed in fast-paced or emergency situations, rather than replicating the full web experience.</p><p>This meant making deliberate cuts. Some features that existed on web were intentionally left out of the first mobile release. They mattered, but including everything would have recreated the same overload that made the web platform hard to use in the first place. The trade-off was scope versus usability: a smaller, sharper tool that physicians could actually rely on under pressure, with room to expand based on real usage patterns post-launch.</p></div></section>
+    </div>
+    </article>
+    <section class="next-case">
+      <div class="container">
+        <h2>Next case</h2>
+        <a class="case-card" href="/en/cases/establishment-portal">
+          <div class="content">
+            <p class="eyebrow">Green Benefícios | 2024</p>
+            <h3>From Support Calls to Self-Service: Building the Establishment Portal</h3>
+            <p>A network of 150,000 establishments generated dozens of daily support calls for information that should have been at their fingertips. I led the design from research to validated prototype.</p>
+            <p class="tags">Fintech / Benefits Tech · B2B Portal · Research to Prototype</p>
+            <span class="btn">View case study →</span>
+          </div>
+          <div class="media"><img src="/assets/img/portal-dashboard.webp" alt="Establishment Portal main dashboard" loading="lazy"></div>
+        </a>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div>
+        <h2>Let’s talk.</h2>
+        <a class="mail" href="mailto:victorianogueiraa@gmail.com">victorianogueiraa@gmail.com</a>
+      </div>
+      <nav aria-label="Contact">
+        <a href="https://www.linkedin.com/in/victorianogueira/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="#">Resume</a>
+        <span class="copy">© 2026 Vic Nogueira</span>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
